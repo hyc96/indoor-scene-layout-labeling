@@ -18,6 +18,8 @@ $python main.py "filename"
 ```
 $python learn.py "filename"
 ```
+alternatively, utilize cloud GPUs with "BBox.ipynb". This requires uploading LSUN data as well.
+
 modify training paramters in "params.py"
 
 ## Data
