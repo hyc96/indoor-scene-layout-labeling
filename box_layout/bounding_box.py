@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../Synth_insert/box_layout")
+sys.path.append("../Bounding_box/box_layout")
 import data_transforms as transforms
 from model import PreTrainedResNet
 import torch
