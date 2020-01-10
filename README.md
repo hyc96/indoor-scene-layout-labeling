@@ -20,7 +20,9 @@ $python learn.py "filename"
 ```
 alternatively, utilize cloud GPUs with "BBox.ipynb". This requires uploading LSUN data as well.
 
-modify training paramters in "params.py"
+Trained models should be saved in the root directory
+
+Modify training paramters in "params.py"
 
 ## Data
 Download LSUN room dataset at [LSUN](https://drive.google.com/file/d/1e40AC_9CwgWPQL9eh18y2k9u4O0X3rl4/view) and place under "data/" directory
