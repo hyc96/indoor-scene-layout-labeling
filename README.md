@@ -31,12 +31,11 @@ Credit: [liamw96](https://github.com/liamw96/pytorch.room.layout)
 
 ## Example
 
-Input: 
-![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/input/1.jpg)
-Output:
-![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/output/membership_1.jpg)
+Sample labeling: 
 
-Vanishing lines are labeled with three directions, the thrid label indicates irrelavent lines.
+![alt text](https://github.com/hyc96/indoor-scene-layout-labeling/blob/master/example/example.png)
+
+Scenes are assigned four labels: walls (includinig ceiling and floor), ceiling lines, floor lines and wall lines
 
 ## License
 
