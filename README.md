@@ -1,17 +1,29 @@
 # indoor-scene-layout-labeling
+LSUN dataset indoor scene layout labeling via transfer learning with segmentation ResNet101
 
 ## Prerequisites
 
 - cv2
-
+- PyTorch
+- Torchvision
 
 ## Usage 
+The root directory should be namded "Bounding_box/"
+
+- To label image using trained model:
 ```
 $python main.py "filename"
 ```
-Input files should be stored in "/input"
+- To train a new model:
+```
+$python learn.py "filename"
+```
+modify training paramters in "params.py"
 
-Output files will be stored in "/output"
+## Data
+Download LSUN room dataset at [LSUN](https://drive.google.com/file/d/1e40AC_9CwgWPQL9eh18y2k9u4O0X3rl4/view) and place under "data/" directory
+
+Credit: [liamw96](https://github.com/liamw96/pytorch.room.layout)
 
 ## Example
 
@@ -21,6 +33,7 @@ Output:
 ![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/output/membership_1.jpg)
 
 Vanishing lines are labeled with three directions, the thrid label indicates irrelavent lines.
+
 ## License
 
 see the [LICENSE.md](LICENSE.md) file for details
